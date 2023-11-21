@@ -21,3 +21,12 @@ First, include the script in your HTML file:
 ```html
 <script src="path/to/imageSlider.js"></script>
 
+Then, structure your HTML with a div element containing your images:
+
+```html
+<div class="image-slider">
+    <img src="image1.jpg" style="display:block;">
+    <img src="image2.jpg" style="display:none;">
+    <img src="image3.jpg" style="display:none;">
+    <!-- Add more images as needed -->
+</div>
